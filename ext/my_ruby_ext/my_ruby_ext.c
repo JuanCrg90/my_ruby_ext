@@ -1,5 +1,4 @@
 #include "ruby/ruby.h"
-#include "ruby/ruby.h"
 #include "library.h"
 
 static VALUE c_hello(VALUE self, VALUE name) {
