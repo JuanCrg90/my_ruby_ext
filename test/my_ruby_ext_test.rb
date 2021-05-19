@@ -3,7 +3,7 @@ require "my_ruby_ext"
 
 class TestMyRubyExt < Minitest::Test
   def test_hello_method
-    assert_equal "Hello: 'Juan C.'", MyRubyExt.hello("Juan C.")
+    assert_equal "Hello Juan C.", MyRubyExt.hello("Juan C.")
   end
 
   def test_square_method
